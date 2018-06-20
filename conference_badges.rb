@@ -22,5 +22,5 @@ return rooms
 end
 
 def printer(names)
-puts.chop  batch_badge_creator(names)
+puts  batch_badge_creator(names)
 end
