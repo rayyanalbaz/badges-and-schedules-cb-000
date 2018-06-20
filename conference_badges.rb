@@ -14,9 +14,10 @@ end
 
 
 def assign_rooms(list)
-  rooms = [[1],[2],[3],[4],[5],[6],[7]]
+  rooms = []
   hash = Hash.new
-  list.each_with_index { |item, index|
-  hash[item] = index}
+  list.each_with_index do |item, index|
+    rooms <<  "Hello, #{name}! You'll be assigned to room #{index}"
+  end
 
 end
