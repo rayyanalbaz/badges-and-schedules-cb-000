@@ -9,6 +9,7 @@ def batch_badge_creator(names)
   names.each do |name|
   output << badge_maker(name)
 end
+return output
 end
 
 
