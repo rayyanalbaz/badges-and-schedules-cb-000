@@ -21,6 +21,6 @@ def assign_rooms(list)
 return rooms
 end
 
-def printer
+def printer(names)
   batch_badge_creator(names)
 end
