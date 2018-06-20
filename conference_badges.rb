@@ -13,5 +13,6 @@ return output
 end
 
 
-def assign_rooms
+def assign_rooms(list)
+  rooms = [[],[],[],[],[],[],[]]
 end
