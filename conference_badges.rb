@@ -19,5 +19,5 @@ def assign_rooms(list)
   list.each_with_index do |item, index|
     rooms <<  "Hello, #{name}! You'll be assigned to room #{index}"
   end
-
+return rooms
 end
