@@ -14,5 +14,7 @@ end
 
 
 def assign_rooms(list)
-  rooms = [[],[],[],[],[],[],[]]
+  rooms = [[1],[2],[3],[4],[5],[6],[7]]
+  list.each_with_index
+  
 end
