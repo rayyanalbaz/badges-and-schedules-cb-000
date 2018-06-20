@@ -18,5 +18,5 @@ def assign_rooms(list)
   hash = Hash.new
   list.each_with_index { |item, index|
   hash[item] = index}
-  
+
 end
